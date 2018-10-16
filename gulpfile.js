@@ -6,7 +6,7 @@ gulp.task('modularize', function() {
   gulp.src('./infobox-lib.js')
     .pipe(concat.footer('\n\nmodule.exports = { default: InfoBox, InfoBox: InfoBox }; '))
     .pipe(concat("infobox-module.js"))
-    .pipe(chmod(766))
+    .pipe(chmod(0o766))
     .pipe(gulp.dest('./'))
 });
 

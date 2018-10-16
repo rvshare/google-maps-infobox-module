@@ -1,10 +1,10 @@
 {
-  "name": "google-maps-infobox",
+  "name": "@rvshare/google-maps-infobox",
   "description": "A browserify optimized module of google maps infobox",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lucasfs7/google-maps-infobox-module.git"
+    "url": "git://github.com/rvshare/google-maps-infobox-module.git"
   },
   "files": [
     "infobox-lib.js",
@@ -30,8 +30,11 @@
   "devDependencies": {
     "@types/googlemaps": "^3.29.2",
     "dtslint": "github:Microsoft/dtslint#production",
-    "gulp": "^3.8.10",
-    "gulp-chmod": "^1.2.0",
-    "gulp-concat-util": "^0.5.1"
+    "gulp": "^3.9.1",
+    "gulp-chmod": "^2.0.0",
+    "gulp-concat-util": "^0.5.5"
+  },
+  "resolutions": {
+    "natives": "1.1.3"
   }
 }
